@@ -1,11 +1,7 @@
 """
-Name: <Anna Rekow>
-Uni: <aer2178>
+<Anna Rekow>
 """
 
-# The function signatures are named for the questions they represent, for
-# instance p1 is problem 1. Please do not modify any of the function signatures
-# as they will be used for grading purposes
 
 import numpy as np
 
@@ -13,7 +9,7 @@ import numpy as np
 def p1(k: int) -> str:
     n = k
     arr = []
-    # no check for negatives - per instructions on piazza
+    # no check for negatives
     for i in range(1, n+1):
         x = p1_fact(i)
         arr.append(x)
